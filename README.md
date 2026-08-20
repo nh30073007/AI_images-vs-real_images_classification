@@ -2,13 +2,13 @@
 
 This deep learning project aims to distinguish between **AI-generated (fake)** and **real human** facial images using a Convolutional Neural Network (CNN) model. The model is trained on high-quality datasets to help identify synthetic faces—important in fighting misinformation, deepfakes, and AI abuse.
 
----
+
 
 ## 🎯 Project Objective
 
 With the rise of GANs and realistic face generators (like ThisPersonDoesNotExist), it becomes crucial to develop AI models that can detect whether an image is real or machine-generated.
 
----
+
 
 ## 🚀 Technologies Used
 
@@ -19,7 +19,7 @@ With the rise of GANs and realistic face generators (like ThisPersonDoesNotExist
 - NumPy
 - CNN (Convolutional Neural Network)
 
----
+
 
 ## 🗂️ Dataset Overview
 
@@ -29,7 +29,7 @@ With the rise of GANs and realistic face generators (like ThisPersonDoesNotExist
   - **Real human faces**
 - Dataset Source: [Kaggle Dataset](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces)
 
----
+
 
 ## 🧠 Model Architecture
 
@@ -38,7 +38,7 @@ With the rise of GANs and realistic face generators (like ThisPersonDoesNotExist
 - Dropout for Regularization
 - Dense Layer with Sigmoid Activation
 
----
+
 
 ## 📊 Training Results
 
@@ -46,7 +46,7 @@ With the rise of GANs and realistic face generators (like ThisPersonDoesNotExist
 - Validation Accuracy: ~96%
 - Loss Curves: Stable with good generalization
 
----
+
 
 ## 🧪 Evaluation
 
@@ -54,7 +54,7 @@ With the rise of GANs and realistic face generators (like ThisPersonDoesNotExist
 - Real-time prediction on custom images (upload & test)
 - Excellent performance on unseen image samples
 
----
+
 
 ## 🖼️ Sample Output
 
@@ -63,9 +63,9 @@ With the rise of GANs and realistic face generators (like ThisPersonDoesNotExist
 | ![real](sample_real.jpg) | Real |
 | ![fake](sample_fake.jpg) | AI-generated |
 
-*(You can add actual image examples if possible)*
 
----
+
+
 
 ## 📈 Future Work
 
@@ -74,7 +74,7 @@ With the rise of GANs and realistic face generators (like ThisPersonDoesNotExist
 - Convert to mobile app or web dashboard
 - Add live webcam detection
 
----
+
 
 ## 🤝 Author
 
